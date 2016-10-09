@@ -27,20 +27,26 @@ function pluginsbasicos_register_required_plugins() {
 			'required'  => true,
 		),
 		array(
-			'name'        => 'iThemes Security',
-			'slug'        => 'better-wp-security',
-			'required'  => true,
-		),
-		array(
-			'name'        => 'iThemes Security',
-			'slug'        => 'better-wp-security',
+			'name'        => 'BackupWordPress',
+			'slug'        => 'backupwordpress',
 			'required'  => true,
 		),
 		
 		array(
+			'name'        => 'iThemes Security',
+			'slug'        => 'better-wp-security',
+			'required'  => false,
+		), 
+		
+		array(
+			'name'        => 'Sucuri',
+			'slug'        => 'sucuri-scanner',
+			'required'  => false,
+		), 
+		array(
 			'name'        => 'Autoptimize',
 			'slug'        => 'autoptimize',
-			'required'  => true,
+			'required'  => false,
 		),
 		array(
 			'name'        => 'Easy WP SMTP',
@@ -55,13 +61,34 @@ function pluginsbasicos_register_required_plugins() {
 		array(
 			'name'        => 'Page Origin',
 			'slug'        => 'siteorigin-panels',
-			'required'  => true,
+			'required'  => false,
 		),
 		array(
 			'name'        => 'Widgets Page Origin',
 			'slug'        => 'so-widgets-bundle',
-			'required'  => true,
+			'required'  => false,
 		),
+		array(
+			'name'        => 'WP fastest cache',
+			'slug'        => 'wp-fastest-cache',
+			'required'  => false,
+		),
+		array(
+			'name'        => 'WP super cache',
+			'slug'        => 'wp-super-cache',
+			'required'  => false,
+		),
+		array(
+			'name'        => 'Google analytics for WordPress',
+			'slug'        => 'google-analytics-for-wordpress',
+			'required'  => false,
+		),
+		array(
+			'name'        => 'Cookies law',
+			'slug'        => 'cookie-law-info',
+			'required'  => false,
+		),
+		
 		);
 
 	
